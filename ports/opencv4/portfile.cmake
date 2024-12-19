@@ -22,6 +22,7 @@ vcpkg_from_github(
       0015-fix-freetype.patch
       0017-fix-flatbuffers.patch
       0019-opencl-kernel.patch
+      0020-miss-openexr.patch
 )
 # Disallow accidental build of vendored copies
 file(REMOVE_RECURSE "${SOURCE_PATH}/3rdparty/openexr")
@@ -52,6 +53,7 @@ vcpkg_check_features(OUT_FEATURE_OPTIONS FEATURE_OPTIONS
  FEATURES
  "ade"        WITH_ADE
  "calib3d"    BUILD_opencv_calib3d
+ "carotene"   WITH_CAROTENE
  "contrib"    WITH_CONTRIB
  "cuda"       WITH_CUBLAS
  "cuda"       WITH_CUDA
