@@ -5594,7 +5594,7 @@
     },
     "libsndfile": {
       "baseline": "1.2.2",
-      "port-version": 1
+      "port-version": 2
     },
     "libsnoretoast": {
       "baseline": "0.8.0",
@@ -6638,7 +6638,7 @@
     },
     "mp3lame": {
       "baseline": "3.100",
-      "port-version": 16
+      "port-version": 17
     },
     "mpark-patterns": {
       "baseline": "2019-10-03",
@@ -9066,7 +9066,7 @@
     },
     "sdl3-mixer": {
       "baseline": "3.2.0",
-      "port-version": 2
+      "port-version": 3
     },
     "sdl3-shadercross": {
       "baseline": "3.0.0-preview2",
